@@ -1,8 +1,16 @@
 import React from 'react'
+import Hero from './sections/Hero'
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/all';
 
+
+
+gsap.registerPlugin(ScrollTrigger);
 function App() {
   return (
-    <div className='text-white'>App</div>
+    <main>
+      <Hero/>
+    </main>
   )
 }
 
