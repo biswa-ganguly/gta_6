@@ -4,6 +4,8 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 import NavBar from './sections/NavBar';
 import FirstVideo from './sections/FirstVideo';
+import Jason from './sections/Jason';
+import SecondVideo from './sections/SecondVideo';
 
 
 
@@ -14,6 +16,8 @@ function App() {
       <NavBar/>
       <Hero/>
       <FirstVideo/>
+      <Jason/>
+      <SecondVideo/>
     </main>
   )
 }
