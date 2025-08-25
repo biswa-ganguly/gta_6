@@ -53,6 +53,25 @@ const Outro = () => {
           <img src="/images/ps-logo.svg" className="md:w-32 w-20" />
           <img src="/images/x-logo.svg" className="md:w-52 w-40" />
         </div>
+         <div>
+  <h3 className="text-white text-center md:text-2xl text-xl font-semibold">
+    Made with passion 
+  </h3>
+
+  {/* Acknowledgment */}
+  <p className="text-gray-400 text-center text-sm mt-2">
+    Built by{" "}
+    <a
+      href="https://biswa-ganguly.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-purple-400 hover:text-purple-300 font-bold underline"
+    >
+      BGX
+    </a>
+  </p>
+</div>
+
       </div>
     </section>
   );
